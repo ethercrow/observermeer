@@ -1,0 +1,17 @@
+cabal-version: 2.4
+name: observermeer
+version: 0.1.0.0
+
+synopsis: Analyze observability data
+
+license: Apache-2.0
+author: Dmitry Ivanov
+maintainer: ethercrow@gmail.com
+
+extra-source-files: CHANGELOG.md
+
+executable observermeer
+    main-is: Main.hs
+    build-depends: base ^>=4.15.0.0
+    hs-source-dirs: exe/observermeer
+    default-language: Haskell2010
